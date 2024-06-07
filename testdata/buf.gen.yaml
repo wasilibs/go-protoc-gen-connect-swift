@@ -1,0 +1,12 @@
+version: v2
+plugins:
+  - local:
+      - go
+      - run
+      - ../cmd/protoc-gen-connect-swift
+    out: ../out/buf/swift
+  - local:
+      - go
+      - run
+      - ../cmd/protoc-gen-connect-swift-mocks
+    out: ../out/buf/swift
