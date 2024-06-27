@@ -1,3 +1,4 @@
+project_name: protoc-gen-connect-swift
 builds:
   - main: ./cmd/protoc-gen-connect-swift
     id: connect-swift

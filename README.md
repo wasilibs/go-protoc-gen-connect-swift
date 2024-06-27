@@ -29,11 +29,9 @@ plugins:
   - plugin: swift
     out: out/swift
     path:
-      [
-        "go",
-        "run",
-        "github.com/wasilibs/go-protoc-gen-connect-swift/cmd/protoc-gen-connect-swift@latest",
-      ]
+      - go
+      - run
+      - github.com/wasilibs/go-protoc-gen-connect-swift/cmd/protoc-gen-connect-swift@latest
 ```
 
 This makes it possible to have full protobuf/gRPC generation with no installation of tools,
