@@ -1,4 +1,4 @@
-FROM  ghcr.io/swiftwasm/swift:5.10-focal
+FROM ghcr.io/swiftwasm/swift:5.10-focal
 
 RUN apt-get update && apt-get install -y binaryen curl
 
