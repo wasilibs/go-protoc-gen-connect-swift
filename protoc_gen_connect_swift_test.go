@@ -1,4 +1,4 @@
-package protoc_gen_connect_swift
+package protocgenconnectswift
 
 import (
 	"bytes"
